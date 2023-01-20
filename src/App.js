@@ -62,9 +62,9 @@ function App() {
             <ButtonTerciario name='Disabled Tertiary' className='btn-disabled btn-terciario' disabled={disabled} onClick={disabledClick}/>
             <Cursor name='Cursor Disabled' className='cursor'/>
 
-            <ButtonPrimary name='Loading Primary' className='btn-primary' status='loading'/>
-            <ButtonSecondary name='Loading Secondary' className='btn-secondary' status='loading'/>
-            <ButtonTerciario name='Loading Tertiary' className='btn-terciario' status='loading'/>
+            <ButtonPrimary name='Loading Primary' className='btn-primary btn-loading' status='loading'/>
+            <ButtonSecondary name='Loading Secondary' className='btn-secondary btn-loading' status='loading'/>
+            <ButtonTerciario name='Loading Tertiary' className='btn-terciario btn-loading' status='loading'/>
             <Cursor name='Cursor loading' className='cursor'/>
 
             <ButtonPrimary name='Movable Primary' className='btn-primary'/>

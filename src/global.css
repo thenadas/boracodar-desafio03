@@ -97,6 +97,7 @@ body{
 
 .btn-disabled:disabled{
     filter: brightness(50%);
+    cursor: not-allowed;
 }
 
 .loading{
@@ -112,6 +113,10 @@ body{
   @keyframes spin{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+.btn-loading:hover{
+    cursor: wait;
 }
 
 
@@ -161,7 +166,6 @@ body{
     text-align: center;
     justify-content: center;
     margin: 20px 10px;
-
 }
 
 .btn-movable:hover{
@@ -169,6 +173,7 @@ body{
     color: #8257e5;
     border: 3px solid #8257e5;
     transition: all 0.3s;
+    cursor:move;
 }
 
 .btn-movable:focus{
