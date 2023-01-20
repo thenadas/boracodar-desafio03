@@ -11,9 +11,9 @@ import './global.css';
 function App() {
 
   const[items, setItems] = useState([
-    "Sou primeiro", 
-    "Qual estou?", 
+    "Era o primeiro", 
     "Era o ultimo", 
+    "depois do ultimo",
   ])
 
   const[disabled, setDisabled] = useState(false);
